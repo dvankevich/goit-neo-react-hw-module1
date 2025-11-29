@@ -43,3 +43,7 @@ result
 
 - https://imagecolorpicker.com/
 - https://onlinepngtools.com/pick-png-color
+
+## table-layout
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/table-layout

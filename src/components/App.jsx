@@ -3,6 +3,8 @@ import userData from "../userData.json";
 import Profile from "./Profile/Profile";
 import friends from "../friends.json";
 import FrendList from "./FriendList/FriendList";
+import transactions from "../transactions.json";
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
       />
       <h2>Завдання 2. Список друзів</h2>
       <FrendList friends={friends} />
+
+      <h2>Завдання 3. Історія транзакцій</h2>
+      <TransactionHistory transactions={transactions} />
     </>
   );
 }
