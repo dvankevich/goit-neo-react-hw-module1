@@ -6,7 +6,7 @@ export default function TransactionHistory({ transactions }) {
       <div className={css.tableContainer}>
         <table className={css.trTable}>
           <thead className={css.trTableHead}>
-            <tr>
+            <tr className={css.trTableRow}>
               <th>Type</th>
               <th>Amount</th>
               <th>Currency</th>
