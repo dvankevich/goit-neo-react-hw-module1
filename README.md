@@ -38,3 +38,8 @@ result
     ├── Profile.jsx
     └── Profile.module.css
 ```
+
+##  color picker online
+
+- https://imagecolorpicker.com/
+- https://onlinepngtools.com/pick-png-color
