@@ -1,6 +1,11 @@
+.tableContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .trTable {
-  table-layout: auto;
-  width: 100%;
+  table-layout: fixed;
+  width: 80%;
 }
 
 .trTableHead {
@@ -16,6 +21,7 @@
 .trTableColumn {
   padding: 8px 0;
   border: 1px solid black;
+  width: calc(100% / 3);
 }
 
 .trTableRow:nth-child(even) {
