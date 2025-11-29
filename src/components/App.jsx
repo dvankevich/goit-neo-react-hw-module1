@@ -1,6 +1,8 @@
 import "./App.css";
 import userData from "../userData.json";
 import Profile from "./Profile/Profile";
+import friends from "../friends.json";
+import FrendList from "./FriendList/FriendList";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <h2>Завдання 2. Список друзів</h2>
+      <FrendList friends={friends} />
     </>
   );
 }
